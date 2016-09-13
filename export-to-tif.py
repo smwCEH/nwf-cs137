@@ -3,9 +3,6 @@ import sys
 import platform
 import datetime
 import time
-import random
-import json
-import collections
 
 
 import arcpy
@@ -124,3 +121,7 @@ print('\n\nIt took {0} to execute this.'.format(hms_string(end_time - start_time
 print('\n\nFinished {0} at {1} on {2}.\n'.format(script,
                                                  datetime.datetime.now().strftime('%H:%M:%S'),
                                                  datetime.datetime.now().strftime('%Y-%m-%d')))
+
+
+
+print('Done.')
